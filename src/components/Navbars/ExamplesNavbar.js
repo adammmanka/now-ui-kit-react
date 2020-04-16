@@ -117,17 +117,17 @@ function ExamplesNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink to="/index" tag={Link}>
-                  Back to Kit
+                  Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Have an issue?
+                <NavLink href="https://blockchaincenter.com">
+                  Checkout the Blockchain Center!
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
+                  href="https://twitter.com/adammmanka?ref=adammanka.com"
                   target="_blank"
                   id="twitter-tooltip"
                 >
@@ -140,7 +140,7 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href="https://www.facebook.com/adammmanka?ref=adammanka.com"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -153,7 +153,7 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                  href="https://www.instagram.com/adammmanka?ref=adammanka.com"
                   target="_blank"
                   id="instagram-tooltip"
                 >

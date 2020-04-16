@@ -79,7 +79,7 @@ function ProfilePage() {
                     pills
                     role="tablist"
                   >
-                    <NavItem>
+                    {/* <NavItem>
                       <NavLink
                         className={pills === "1" ? "active" : ""}
                         href="#pablo"
@@ -90,7 +90,7 @@ function ProfilePage() {
                       >
                         <i className="now-ui-icons design_image"></i>
                       </NavLink>
-                    </NavItem>
+                    </NavItem> */}
                     <NavItem>
                       <NavLink
                         className={pills === "2" ? "active" : ""}
@@ -103,7 +103,7 @@ function ProfilePage() {
                         <i className="now-ui-icons location_world"></i>
                       </NavLink>
                     </NavItem>
-                    <NavItem>
+                    {/* <NavItem>
                       <NavLink
                         className={pills === "3" ? "active" : ""}
                         href="#pablo"
@@ -114,12 +114,12 @@ function ProfilePage() {
                       >
                         <i className="now-ui-icons sport_user-run"></i>
                       </NavLink>
-                    </NavItem>
+                    </NavItem> */}
                   </Nav>
                 </div>
               </Col>
               <TabContent className="gallery" activeTab={"pills" + pills}>
-                <TabPane tabId="pills1">
+                {/* <TabPane tabId="pills1">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
@@ -148,38 +148,38 @@ function ProfilePage() {
                       </Col>
                     </Row>
                   </Col>
-                </TabPane>
+                </TabPane> */}
                 <TabPane tabId="pills2">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
-                        <img
+                      <a href="https://bitcoincenter.com"><img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg6.jpg")}
-                        ></img>
-                        <img
+                          src={require("assets/img/bitcoincentercom.JPG")}
+                        ></img></a>
+                        <a href="https://jujurentals.com"><img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg11.jpg")}
-                        ></img>
+                          src={require("assets/img/jujusite.jpg")}
+                        ></img></a>
                       </Col>
                       <Col md="6">
-                        <img
+                        <a href="https://bitunits.com"><img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg7.jpg")}
-                        ></img>
-                        <img
+                          src={require("assets/img/bitunits.jpg")}
+                        ></img></a>
+                        {/* <img
                           alt="..."
                           className="img-raised"
                           src={require("assets/img/bg8.jpg")}
-                        ></img>
+                        ></img> */}
                       </Col>
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills3">
+                {/* <TabPane tabId="pills3">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
@@ -208,7 +208,7 @@ function ProfilePage() {
                       </Col>
                     </Row>
                   </Col>
-                </TabPane>
+                </TabPane> */}
               </TabContent>
             </Row>
           </Container>
